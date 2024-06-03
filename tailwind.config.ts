@@ -19,6 +19,9 @@ const config = {
       },
     },
     extend: {
+      screens: {
+        half: "900px", // Custom breakpoint at 768px
+      },
       colors: {
         fill: {
           1: "rgba(255, 255, 255, 0.10)",
